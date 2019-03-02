@@ -1,0 +1,294 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ToggleButton
+        android:id="@+id/tglBtnLCD"
+        android:layout_width="93dp"
+        android:layout_height="64dp"
+        android:layout_marginStart="36dp"
+        android:layout_marginTop="392dp"
+        android:text="ToggleButton"
+        android:textOff="Send"
+        android:textOn="Sending"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/txtSRate8"
+        android:layout_width="93dp"
+        android:layout_height="20dp"
+        android:layout_marginTop="372dp"
+        android:text="LCD Text"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.147"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/editTextSendText"
+        android:layout_width="205dp"
+        android:layout_height="82dp"
+        android:layout_marginStart="152dp"
+        android:layout_marginTop="372dp"
+        android:layout_marginEnd="16dp"
+        android:ems="10"
+        android:inputType="textMultiLine"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.236"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/txtSRate7"
+        android:layout_width="93dp"
+        android:layout_height="20dp"
+        android:layout_marginTop="260dp"
+        android:text="Motion Sensor"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.147"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/edTxtSmpMotsen"
+        android:layout_width="93dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="284dp"
+        android:layout_marginEnd="8dp"
+        android:ems="10"
+        android:inputType="number"
+        app:layout_constraintEnd_toStartOf="@+id/motsen"
+        app:layout_constraintStart_toEndOf="@+id/tglBtnMotSen"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ToggleButton
+        android:id="@+id/tglBtnMotSen"
+        android:layout_width="90dp"
+        android:layout_height="64dp"
+        android:layout_marginStart="36dp"
+        android:layout_marginTop="280dp"
+        android:text="ToggleButton"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/motsen"
+        android:layout_width="80dp"
+        android:layout_height="37dp"
+        android:layout_marginTop="292dp"
+        android:layout_marginEnd="40dp"
+        android:fontFamily="monospace"
+        android:gravity="center"
+        android:text="...."
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/temp"
+        android:layout_width="80dp"
+        android:layout_height="37dp"
+        android:layout_marginTop="52dp"
+        android:layout_marginRight="40dp"
+        android:fontFamily="monospace"
+        android:gravity="center"
+        android:text="...."
+        android:textSize="16sp"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/msg1"
+        android:layout_width="31dp"
+        android:layout_height="31dp"
+        android:layout_marginTop="88dp"
+        android:layout_marginRight="8dp"
+        android:fontFamily="monospace"
+        android:gravity="center"
+        android:textSize="10sp"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/msg2"
+        android:layout_width="31dp"
+        android:layout_height="31dp"
+        android:layout_marginTop="180dp"
+        android:layout_marginRight="8dp"
+        android:fontFamily="monospace"
+        android:gravity="center"
+        android:textSize="10sp"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/msg3"
+        android:layout_width="31dp"
+        android:layout_height="31dp"
+        android:layout_marginTop="296dp"
+        android:layout_marginRight="8dp"
+        android:fontFamily="monospace"
+        android:gravity="center"
+        android:textSize="10sp"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/msg4"
+        android:layout_width="31dp"
+        android:layout_height="31dp"
+        android:layout_marginTop="340dp"
+        android:layout_marginRight="8dp"
+        android:fontFamily="monospace"
+        android:gravity="center"
+        android:textSize="10sp"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/msg6"
+        android:layout_width="31dp"
+        android:layout_height="31dp"
+        android:layout_marginRight="8dp"
+        android:fontFamily="monospace"
+        android:gravity="center"
+        android:textSize="10sp"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/temphum"
+        android:layout_width="173dp"
+        android:layout_height="41dp"
+        android:layout_marginEnd="24dp"
+        android:fontFamily="monospace"
+        android:gravity="center"
+        android:text="Sensors"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toStartOf="@+id/temp"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/hum"
+        android:layout_width="80dp"
+        android:layout_height="37dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="40dp"
+        android:fontFamily="monospace"
+        android:gravity="center"
+        android:text="...."
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/temp" />
+
+    <TextView
+        android:id="@+id/led"
+        android:layout_width="80dp"
+        android:layout_height="37dp"
+        android:layout_marginTop="180dp"
+        android:layout_marginEnd="40dp"
+        android:fontFamily="monospace"
+        android:gravity="center"
+        android:text="...."
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ToggleButton
+        android:id="@+id/tgbtnTemp"
+        android:layout_width="90dp"
+        android:layout_height="64dp"
+        android:layout_marginStart="36dp"
+        android:layout_marginTop="60dp"
+        android:text="ToggleButton"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ToggleButton
+        android:id="@+id/tgbtnLED"
+        android:layout_width="90dp"
+        android:layout_height="64dp"
+        android:layout_marginStart="36dp"
+        android:layout_marginTop="172dp"
+        android:text="ToggleButton"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/edTxtSmpTemp"
+        android:layout_width="93dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="162dp"
+        android:layout_marginTop="72dp"
+        android:layout_marginEnd="156dp"
+        android:ems="10"
+        android:inputType="number"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/edTxtSmpLed"
+        android:layout_width="93dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="172dp"
+        android:layout_marginEnd="8dp"
+        android:ems="10"
+        android:inputType="number"
+        app:layout_constraintEnd_toStartOf="@+id/led"
+        app:layout_constraintHorizontal_bias="0.48"
+        app:layout_constraintStart_toEndOf="@+id/tgbtnLED"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/txtSRate"
+        android:layout_width="93dp"
+        android:layout_height="20dp"
+        android:layout_marginTop="40dp"
+        android:text="Sampling Rate"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.515"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/txtSRate2"
+        android:layout_width="93dp"
+        android:layout_height="20dp"
+        android:text="Messages"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.858"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/txtSRate4"
+        android:layout_width="93dp"
+        android:layout_height="20dp"
+        android:layout_marginTop="40dp"
+        android:text="Temp/Hum"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.147"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/txtSRate5"
+        android:layout_width="93dp"
+        android:layout_height="20dp"
+        android:layout_marginTop="152dp"
+        android:text="Led Light"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.147"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+</android.support.constraint.ConstraintLayout>
