@@ -58,9 +58,9 @@ public class MainActivity extends AppCompatActivity {
 
 
         //assigning variables for server connection
-        final String SERVER = "tcp://m24.cloudmqtt.com:17643";
-        final String USER = "cvhjodxm";
-        final String PW = "noQYPCm8bCZm";
+        final String SERVER = "";
+        final String USER = "c";
+        final String PW = "";
         final String CLIENTID = MqttClient.generateClientId();
 
         //creating Mqtt android client
